@@ -1,0 +1,48 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    text-align: center;
+}
+
+.buttons button, #task-container button {
+    padding: 12px 24px;
+    font-size: 18px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.buttons button {
+    background-color: #007BFF;
+    color: #fff;
+}
+
+.buttons button:hover {
+    background-color: #0056b3;
+}
+
+#task-container {
+    margin-top: 20px;
+}
+
+.hidden {
+    display: none;
+}
+
+#timer {
+    font-size: 24px;
+    font-weight: bold;
+    color: red;
+}
